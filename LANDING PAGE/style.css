@@ -1,0 +1,154 @@
+body{
+	background-color: black;
+	margin: 0px;
+}
+
+.head-banner{
+	background-image:url("images/kylosabre.jpg");
+	background-size: cover;
+	background-position: center;
+	padding:30px;
+	border-radius:4px;
+	box-shadow:0px 0px 50px rgba(139,0,0,1.5); 
+	margin: 60px auto;
+	text-align: center;
+	color: white;
+	text-shadow:3px 1px 5px rgba(139,0,0,1); 
+	font-family: 'Nanum Gothic', sans-serif;
+	height: 70px;
+}
+
+@media(max-width: 700){
+	.head-banner{
+		width: 600;
+	}
+}
+
+@media(max-width: 500){
+	.head-banner{
+		width: 400;
+	}
+}
+
+@media(max-width: 400){
+	.head-banner{
+		width: 350;
+	}
+}
+
+.main-box{
+	background-image: url("images/xwing.jpg");  
+	padding:30px;
+	border-radius:4px;
+	box-shadow:0px 0px 50px rgba(29,44,179,1); 
+	padding: 30px 0px;
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+
+}
+
+@media(max-width: 700px){
+	.main-box{
+		width: 600px;
+		flex-direction: column;
+	}
+	#r2d2{
+		display: none;
+	}
+}
+
+@media(max-width: 500px){
+	.main-box{
+		width: 400px;
+	}
+}
+
+@media(max-width: 400px){
+	.main-box{
+		width: 350px;
+	}
+}
+
+.box{
+	background:rgba(81,120,194,0.5); 
+	padding:30px;
+	border-radius:4px;
+	box-shadow:0px 0px 50px rgba(230,230,230,0.8);
+	margin: 30px 80px; 
+	color: white;
+	font-family: 'Nanum Gothic', sans-serif;
+	text-shadow:0px 1px 5px white; 
+	width: 350px;
+	height: 300px;
+	line-height: 200%;
+}
+
+.nav{
+	background-color: rgba(29,44,179,0.8);
+	display: flex;
+	justify-content: space-between;
+	padding: 10px;
+	align-items: center;
+	position: fixed;
+    top: 0;
+    width: 100%;
+
+}
+
+.menu-items{
+	list-style-type: none;
+	margin: 0;
+	padding: 10px;
+	font-family: 'Nanum Gothic', sans-serif;
+	color: white;
+
+}
+
+.menu-item:hover{
+	color: black;
+}
+
+.menu-item{
+	display: inline;
+	margin: 0px 5px;
+	text-shadow:0px 1px 5px white; 
+	transition: 0.3s ease;
+	cursor: pointer;;
+
+
+}
+
+#logo{
+	font-size: 30px;
+	color: white;
+}
+
+#r2d2{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	object-fit: cover;
+	object-position: top;
+
+
+}
+
+#button{
+	list-style-type: none;
+	padding: 5px 10px;
+	margin : 30px 30px;
+	background-color: rgb(29,44,179);
+	text-align: center;
+	border-radius: 5px;
+	text-shadow:0px 1px 5px white;
+	transition: 0.3s ease;
+	cursor: pointer;
+
+}
+
+#button:hover{
+	background-color: black;
+}
